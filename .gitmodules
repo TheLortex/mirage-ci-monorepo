@@ -1,142 +1,14 @@
-[submodule "variantslib"]
-	path = variantslib
-	url = https://github.com/janestreet/variantslib.git
-	branch = master
-[submodule "typerep"]
-	path = typerep
-	url = https://github.com/janestreet/typerep.git
-	branch = master
-[submodule "timezone"]
-	path = timezone
-	url = https://github.com/janestreet/timezone.git
-	branch = master
-[submodule "time_now"]
-	path = time_now
-	url = https://github.com/janestreet/time_now.git
-	branch = master
-[submodule "stdio"]
-	path = stdio
-	url = https://github.com/janestreet/stdio.git
-	branch = master
-[submodule "splittable_random"]
-	path = splittable_random
-	url = https://github.com/janestreet/splittable_random.git
-	branch = master
 [submodule "sexplib0"]
 	path = sexplib0
 	url = https://github.com/janestreet/sexplib0.git
-	branch = master
-[submodule "sexplib"]
-	path = sexplib
-	url = https://github.com/janestreet/sexplib.git
-	branch = master
-[submodule "ppx_sexp_value"]
-	path = ppx_sexp_value
-	url = https://github.com/janestreet/ppx_sexp_value.git
-	branch = master
-[submodule "ppx_pipebang"]
-	path = ppx_pipebang
-	url = https://github.com/janestreet/ppx_pipebang.git
-	branch = master
-[submodule "ppx_optional"]
-	path = ppx_optional
-	url = https://github.com/janestreet/ppx_optional.git
-	branch = master
-[submodule "ppx_module_timer"]
-	path = ppx_module_timer
-	url = https://github.com/janestreet/ppx_module_timer.git
-	branch = master
-[submodule "ppx_let"]
-	path = ppx_let
-	url = https://github.com/janestreet/ppx_let.git
-	branch = master
-[submodule "ppx_js_style"]
-	path = ppx_js_style
-	url = https://github.com/janestreet/ppx_js_style.git
-	branch = master
-[submodule "ppx_jane"]
-	path = ppx_jane
-	url = https://github.com/janestreet/ppx_jane.git
-	branch = master
-[submodule "ppx_here"]
-	path = ppx_here
-	url = https://github.com/janestreet/ppx_here.git
-	branch = master
-[submodule "ppx_hash"]
-	path = ppx_hash
-	url = https://github.com/janestreet/ppx_hash.git
-	branch = master
-[submodule "ppx_fixed_literal"]
-	path = ppx_fixed_literal
-	url = https://github.com/janestreet/ppx_fixed_literal.git
-	branch = master
-[submodule "ppx_enumerate"]
-	path = ppx_enumerate
-	url = https://github.com/janestreet/ppx_enumerate.git
-	branch = master
-[submodule "ppx_compare"]
-	path = ppx_compare
-	url = https://github.com/janestreet/ppx_compare.git
-	branch = master
-[submodule "ppx_cold"]
-	path = ppx_cold
-	url = https://github.com/janestreet/ppx_cold.git
-	branch = master
-[submodule "ppx_bin_prot"]
-	path = ppx_bin_prot
-	url = https://github.com/janestreet/ppx_bin_prot.git
-	branch = master
-[submodule "ppx_base"]
-	path = ppx_base
-	url = https://github.com/janestreet/ppx_base.git
-	branch = master
-[submodule "ppx_assert"]
-	path = ppx_assert
-	url = https://github.com/janestreet/ppx_assert.git
-	branch = master
-[submodule "jst-config"]
-	path = jst-config
-	url = https://github.com/janestreet/jst-config.git
-	branch = master
-[submodule "jane-street-headers"]
-	path = jane-street-headers
-	url = https://github.com/janestreet/jane-street-headers.git
-	branch = master
-[submodule "fieldslib"]
-	path = fieldslib
-	url = https://github.com/janestreet/fieldslib.git
-	branch = master
-[submodule "bin_prot"]
-	path = bin_prot
-	url = https://github.com/janestreet/bin_prot.git
-	branch = master
-[submodule "base_bigstring"]
-	path = base_bigstring
-	url = https://github.com/janestreet/base_bigstring.git
-	branch = master
-[submodule "async_unix"]
-	path = async_unix
-	url = https://github.com/janestreet/async_unix.git
-	branch = master
-[submodule "async_kernel"]
-	path = async_kernel
-	url = https://github.com/janestreet/async_kernel.git
 	branch = master
 [submodule "stringext"]
 	path = stringext
 	url = https://github.com/rgrinberg/stringext.git
 	branch = master
-[submodule "lwt"]
-	path = lwt
-	url = https://github.com/ocsigen/lwt.git
-	branch = master
 [submodule "stdlib-shims"]
 	path = stdlib-shims
 	url = https://github.com/ocaml/stdlib-shims.git
-	branch = master
-[submodule "ocaml-re"]
-	path = ocaml-re
-	url = https://github.com/ocaml/ocaml-re.git
 	branch = master
 [submodule "dune"]
 	path = dune
@@ -162,25 +34,9 @@
 	path = csexp
 	url = https://github.com/ocaml-dune/csexp.git
 	branch = master
-[submodule "octavius"]
-	path = octavius
-	url = https://github.com/ocaml-doc/octavius.git
-	branch = master
-[submodule "cppo"]
-	path = cppo
-	url = https://github.com/ocaml-community/cppo.git
-	branch = master
 [submodule "ocaml-uri"]
 	path = ocaml-uri
 	url = https://github.com/mirage/ocaml-uri.git
-	branch = master
-[submodule "ocaml-cstruct"]
-	path = ocaml-cstruct
-	url = https://github.com/mirage/ocaml-cstruct.git
-	branch = master
-[submodule "mmap"]
-	path = mmap
-	url = https://github.com/mirage/mmap.git
 	branch = master
 [submodule "eqaf"]
 	path = eqaf
@@ -194,77 +50,17 @@
 	path = bigarray-compat
 	url = https://github.com/mirage/bigarray-compat.git
 	branch = master
-[submodule "spawn"]
-	path = spawn
-	url = https://github.com/janestreet/spawn.git
-	branch = master
 [submodule "result"]
 	path = result
 	url = https://github.com/janestreet/result.git
-	branch = master
-[submodule "ppx_variants_conv"]
-	path = ppx_variants_conv
-	url = https://github.com/janestreet/ppx_variants_conv.git
-	branch = master
-[submodule "ppx_typerep_conv"]
-	path = ppx_typerep_conv
-	url = https://github.com/janestreet/ppx_typerep_conv.git
-	branch = master
-[submodule "ppx_string"]
-	path = ppx_string
-	url = https://github.com/janestreet/ppx_string.git
-	branch = master
-[submodule "ppx_stable"]
-	path = ppx_stable
-	url = https://github.com/janestreet/ppx_stable.git
-	branch = master
-[submodule "ppx_sexp_message"]
-	path = ppx_sexp_message
-	url = https://github.com/janestreet/ppx_sexp_message.git
 	branch = master
 [submodule "ppx_sexp_conv"]
 	path = ppx_sexp_conv
 	url = https://github.com/janestreet/ppx_sexp_conv.git
 	branch = master
-[submodule "ppx_optcomp"]
-	path = ppx_optcomp
-	url = https://github.com/janestreet/ppx_optcomp.git
-	branch = master
-[submodule "ppx_inline_test"]
-	path = ppx_inline_test
-	url = https://github.com/janestreet/ppx_inline_test.git
-	branch = master
-[submodule "ppx_fields_conv"]
-	path = ppx_fields_conv
-	url = https://github.com/janestreet/ppx_fields_conv.git
-	branch = master
-[submodule "ppx_expect"]
-	path = ppx_expect
-	url = https://github.com/janestreet/ppx_expect.git
-	branch = master
-[submodule "ppx_custom_printf"]
-	path = ppx_custom_printf
-	url = https://github.com/janestreet/ppx_custom_printf.git
-	branch = master
-[submodule "ppx_bench"]
-	path = ppx_bench
-	url = https://github.com/janestreet/ppx_bench.git
-	branch = master
 [submodule "ocaml-compiler-libs"]
 	path = ocaml-compiler-libs
 	url = https://github.com/janestreet/ocaml-compiler-libs.git
-	branch = master
-[submodule "core_kernel"]
-	path = core_kernel
-	url = https://github.com/janestreet/core_kernel.git
-	branch = master
-[submodule "core"]
-	path = core
-	url = https://github.com/janestreet/core.git
-	branch = master
-[submodule "base_quickcheck"]
-	path = base_quickcheck
-	url = https://github.com/janestreet/base_quickcheck.git
 	branch = master
 [submodule "bigstringaf"]
 	path = bigstringaf
@@ -274,23 +70,7 @@
 	path = angstrom
 	url = https://github.com/inhabitedtype/angstrom.git
 	branch = master
-[submodule "num"]
-	path = num
-	url = https://github.com/dune-universe/num.git
-	branch = duniverse-v1.3
-[submodule "seq"]
-	path = seq
-	url = https://github.com/c-cube/seq.git
-	branch = master
-[submodule "parsexp"]
-	path = parsexp
-	url = https://github.com/janestreet/parsexp.git
-	branch = master
 [submodule "base"]
 	path = base
 	url = https://github.com/janestreet/base.git
-	branch = master
-[submodule "ocplib-endian"]
-	path = ocplib-endian
-	url = https://github.com/OCamlPro/ocplib-endian.git
 	branch = master
