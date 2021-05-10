@@ -1,0 +1,8 @@
+[submodule "ocaml-uri"]
+	path = ocaml-uri
+	url = https://github.com/mirage/ocaml-uri.git
+	branch = master
+[submodule "digestif"]
+	path = digestif
+	url = https://github.com/mirage/digestif.git
+	branch = master
