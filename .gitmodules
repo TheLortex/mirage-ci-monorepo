@@ -6,3 +6,7 @@
 	path = digestif
 	url = https://github.com/mirage/digestif.git
 	branch = master
+[submodule "ocaml-cstruct"]
+	path = ocaml-cstruct
+	url = https://github.com/mirage/ocaml-cstruct.git
+	branch = master
