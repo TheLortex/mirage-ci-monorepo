@@ -1,0 +1,281 @@
+opam-version: "2.0"
+synopsis: "opam-monorepo generated lockfile"
+maintainer: "opam-monorepo"
+depends: [
+  "angstrom" {= "0.15.0"}
+  "base" {= "v0.14.1"}
+  "base-bigarray" {= "base"}
+  "base-bytes" {= "base"}
+  "base-threads" {= "base"}
+  "base-unix" {= "base"}
+  "bigarray-compat" {= "1.0.0"}
+  "bigstringaf" {= "0.8.0"}
+  "conf-pkg-config" {= "2"}
+  "csexp" {= "1.5.1"}
+  "cstruct" {= "6.0.1"}
+  "digestif" {= "1.1.0"}
+  "dune" {= "2.9.1"}
+  "dune-configurator" {= "2.9.1"}
+  "eqaf" {= "0.8"}
+  "findlib" {= "1.8.1+dune"}
+  "ocaml" {= "4.13.1"}
+  "ocaml-base-compiler" {= "4.13.1"}
+  "ocaml-compiler-libs" {= "v0.12.4"}
+  "ocaml-config" {= "2"}
+  "ocaml-options-vanilla" {= "1"}
+  "ocaml-syntax-shims" {= "1.0.0"}
+  "ocamlfind" {= "1.8.1+dune"}
+  "ppx_derivers" {= "1.2.1"}
+  "ppx_sexp_conv" {= "v0.14.3"}
+  "ppxlib" {= "0.23.0"}
+  "result" {= "1.5"}
+  "sexplib0" {= "v0.14.0"}
+  "stdlib-shims" {= "0.3.0"}
+  "stringext" {= "1.6.0"}
+  "uri" {= "4.2.0"}
+  "uri-sexp" {= "4.2.0"}
+]
+depexts: [
+  ["devel/pkgconf"] {os = "openbsd"}
+  ["pkg-config"] {os-family = "debian"}
+  ["pkg-config"] {os = "macos" & os-distribution = "homebrew"}
+  ["pkgconf"] {os = "freebsd"}
+  ["pkgconf"] {os-distribution = "alpine"}
+  ["pkgconf"] {os-distribution = "arch"}
+  ["pkgconf-pkg-config"] {os-distribution = "fedora"}
+  ["pkgconf-pkg-config"] {os-distribution = "mageia"}
+  ["pkgconf-pkg-config"] {os-distribution = "centos" & os-version >= "8"}
+  ["pkgconf-pkg-config"] {os-distribution = "ol" & os-version >= "8"}
+  ["pkgconf-pkg-config"] {os-distribution = "rhel" & os-version >= "8"}
+  ["pkgconfig"] {os-distribution = "nixos"}
+  ["pkgconfig"] {os = "macos" & os-distribution = "macports"}
+  ["pkgconfig"] {os-distribution = "centos" & os-version <= "7"}
+  ["pkgconfig"] {os-distribution = "ol" & os-version <= "7"}
+  ["pkgconfig"] {os-distribution = "rhel" & os-version <= "7"}
+  ["system:pkgconf"] {os = "win32" & os-distribution = "cygwinports"}
+]
+pin-depends: [
+  [
+    "angstrom.0.15.0"
+    "https://github.com/inhabitedtype/angstrom/archive/0.15.0.tar.gz"
+  ]
+  ["base.v0.14.1" "https://github.com/TheLortex/base/archive/v0.14.1.zip"]
+  [
+    "bigarray-compat.1.0.0"
+    "https://github.com/mirage/bigarray-compat/archive/v1.0.0.tar.gz"
+  ]
+  [
+    "bigstringaf.0.8.0"
+    "https://github.com/inhabitedtype/bigstringaf/archive/0.8.0.tar.gz"
+  ]
+  [
+    "csexp.1.5.1"
+    "https://github.com/ocaml-dune/csexp/releases/download/1.5.1/csexp-1.5.1.tbz"
+  ]
+  [
+    "cstruct.6.0.1"
+    "https://github.com/mirage/ocaml-cstruct/releases/download/v6.0.1/cstruct-v6.0.1.tbz"
+  ]
+  [
+    "digestif.1.1.0"
+    "https://github.com/mirage/digestif/releases/download/v1.1.0/digestif-v1.1.0.tbz"
+  ]
+  [
+    "dune-configurator.2.9.1"
+    "https://github.com/ocaml/dune/releases/download/2.9.1/dune-2.9.1.tbz"
+  ]
+  [
+    "eqaf.0.8"
+    "https://github.com/mirage/eqaf/releases/download/v0.8/eqaf-v0.8.tbz"
+  ]
+  [
+    "findlib.1.8.1+dune"
+    "https://github.com/dune-universe/lib-findlib/archive/v1.8.1+dune.tar.gz"
+  ]
+  [
+    "ocaml-compiler-libs.v0.12.4"
+    "https://github.com/janestreet/ocaml-compiler-libs/releases/download/v0.12.4/ocaml-compiler-libs-v0.12.4.tbz"
+  ]
+  [
+    "ocaml-syntax-shims.1.0.0"
+    "https://github.com/ocaml-ppx/ocaml-syntax-shims/releases/download/1.0.0/ocaml-syntax-shims-1.0.0.tbz"
+  ]
+  [
+    "ocamlfind.1.8.1+dune"
+    "https://github.com/dune-universe/lib-findlib/archive/v1.8.1+dune.tar.gz"
+  ]
+  [
+    "ppx_derivers.1.2.1"
+    "https://github.com/ocaml-ppx/ppx_derivers/archive/1.2.1.tar.gz"
+  ]
+  [
+    "ppx_sexp_conv.v0.14.3"
+    "https://github.com/janestreet/ppx_sexp_conv/archive/v0.14.3.tar.gz"
+  ]
+  [
+    "ppxlib.0.23.0"
+    "https://github.com/ocaml-ppx/ppxlib/releases/download/0.23.0/ppxlib-0.23.0.tbz"
+  ]
+  [
+    "result.1.5"
+    "https://github.com/janestreet/result/releases/download/1.5/result-1.5.tbz"
+  ]
+  [
+    "sexplib0.v0.14.0"
+    "https://ocaml.janestreet.com/ocaml-core/v0.14/files/sexplib0-v0.14.0.tar.gz"
+  ]
+  [
+    "stdlib-shims.0.3.0"
+    "https://github.com/ocaml/stdlib-shims/releases/download/0.3.0/stdlib-shims-0.3.0.tbz"
+  ]
+  [
+    "stringext.1.6.0"
+    "https://github.com/rgrinberg/stringext/releases/download/1.6.0/stringext-1.6.0.tbz"
+  ]
+  [
+    "uri.4.2.0"
+    "https://github.com/mirage/ocaml-uri/releases/download/v4.2.0/uri-v4.2.0.tbz"
+  ]
+  [
+    "uri-sexp.4.2.0"
+    "https://github.com/mirage/ocaml-uri/releases/download/v4.2.0/uri-v4.2.0.tbz"
+  ]
+]
+x-opam-monorepo-duniverse-dirs: [
+  ["https://github.com/TheLortex/base/archive/v0.14.1.zip" "base"]
+  [
+    "https://github.com/dune-universe/lib-findlib/archive/v1.8.1+dune.tar.gz"
+    "lib-findlib"
+    [
+      "sha256=1a337aaedca94837d4d6a1689ed18109e4a2cfd4aa99a56252a6f19fe1291bb0"
+    ]
+  ]
+  [
+    "https://github.com/inhabitedtype/angstrom/archive/0.15.0.tar.gz"
+    "angstrom"
+    ["md5=5104768c404ea92fd0a53a5b0f75cd50"]
+  ]
+  [
+    "https://github.com/inhabitedtype/bigstringaf/archive/0.8.0.tar.gz"
+    "bigstringaf"
+    ["md5=c3b8164c1ed1eba9977dcd0c5490e61d"]
+  ]
+  [
+    "https://github.com/janestreet/ocaml-compiler-libs/releases/download/v0.12.4/ocaml-compiler-libs-v0.12.4.tbz"
+    "ocaml-compiler-libs"
+    [
+      "sha256=4ec9c9ec35cc45c18c7a143761154ef1d7663036a29297f80381f47981a07760"
+      "sha512=978dba8dfa61f98fa24fda7a9c26c2e837081f37d1685fe636dc19cfc3278a940cf01a10293504b185c406706bc1008bc54313d50f023bcdea6d5ac6c0788b35"
+    ]
+  ]
+  [
+    "https://github.com/janestreet/ppx_sexp_conv/archive/v0.14.3.tar.gz"
+    "ppx_sexp_conv"
+    ["md5=25caf01245e0113e035ccefe275f85d9"]
+  ]
+  [
+    "https://github.com/janestreet/result/releases/download/1.5/result-1.5.tbz"
+    "result"
+    ["md5=1b82dec78849680b49ae9a8a365b831b"]
+  ]
+  [
+    "https://github.com/mirage/bigarray-compat/archive/v1.0.0.tar.gz"
+    "bigarray-compat"
+    [
+      "md5=1cc7c25382a8900bada34aadfd66632e"
+      "sha512=c365fee15582aca35d7b05268cde29e54774ad7df7be56762b4aad78ca1409d4326ad3b34af0f1cc2c7b872837290a9cd9ff43b47987c03bba7bba32fe8a030f"
+    ]
+  ]
+  [
+    "https://github.com/mirage/digestif/releases/download/v1.1.0/digestif-v1.1.0.tbz"
+    "digestif"
+    [
+      "sha256=654b195c668f2d1e35b8b06a8932d058fcc8f4d39e70be58eb2432fbf39afc05"
+      "sha512=229218b0a66c9e8809ff960b5bcfb4499bcbdc1da70ca6aff7f4676e51f60c5947516f510f2fe68cee380b0a2aab5a2c270d06da055ca0b583948abce2418845"
+    ]
+  ]
+  [
+    "https://github.com/mirage/eqaf/releases/download/v0.8/eqaf-v0.8.tbz"
+    "eqaf"
+    [
+      "sha256=1145a160107437d7943e02e486df6bd233d3937ec1a597d7fa39edb9471cf875"
+      "sha512=303749bdbaae8fc27f57ebaa5cf9b16ed5b8cbaee35f0a35d69f91a437b1a3411a613d145d3aff7ff74a587509d877cc0a569fdae4d00cec65bf50d705361e25"
+    ]
+  ]
+  [
+    "https://github.com/mirage/ocaml-cstruct/releases/download/v6.0.1/cstruct-v6.0.1.tbz"
+    "ocaml-cstruct"
+    [
+      "sha256=4a67bb8f042753453c59eabf0e47865631253ba694091ce6062aac05d47a9bed"
+      "sha512=3eeeb6ae0fd3b625cf1d308498f0a1e6951d16566561f3362fdf74e7158d92d8f6c6d9fa968ff15f8c19a1886dce99d0ef17b44dbb37b97cc68c9b088fdc2248"
+    ]
+  ]
+  [
+    "https://github.com/mirage/ocaml-uri/releases/download/v4.2.0/uri-v4.2.0.tbz"
+    "ocaml-uri"
+    [
+      "sha256=c5c013d940dbb6731ea2ee75c2bf991d3435149c3f3659ec2e55476f5473f16b"
+      "sha512=119e39bf53db9e94383a4e3a3df492b60b2db097266b3a8660de431ad85bc87997718305972fd2abbfb529973475ce6b210ba5e34d12e85a5dabbb0e24130aa1"
+    ]
+  ]
+  [
+    "https://github.com/ocaml-dune/csexp/releases/download/1.5.1/csexp-1.5.1.tbz"
+    "csexp"
+    [
+      "sha256=d605e4065fa90a58800440ef2f33a2d931398bf2c22061a8acb7df845c0aac02"
+      "sha512=d785bbabaff9f6bf601399149ef0a42e5e99647b54e27f97ef1625907793dda22a45bf83e0e8a1eba2c63634c5484b54739ff0904ef556f5fc592efa38af7505"
+    ]
+  ]
+  [
+    "https://github.com/ocaml-ppx/ocaml-syntax-shims/releases/download/1.0.0/ocaml-syntax-shims-1.0.0.tbz"
+    "ocaml-syntax-shims"
+    [
+      "sha256=89b2e193e90a0c168b6ec5ddf6fef09033681bdcb64e11913c97440a2722e8c8"
+      "sha512=75c4c6b0bfa1267a8a49a82ba494d08cf0823fc8350863d6d3d4971528cb09e5a2a29e2981d04c75e76ad0f49360b05a432c9efeff9a4fbc1ec6b28960399852"
+    ]
+  ]
+  [
+    "https://github.com/ocaml-ppx/ppx_derivers/archive/1.2.1.tar.gz"
+    "ppx_derivers"
+    ["md5=5dc2bf130c1db3c731fe0fffc5648b41"]
+  ]
+  [
+    "https://github.com/ocaml-ppx/ppxlib/releases/download/0.23.0/ppxlib-0.23.0.tbz"
+    "ppxlib"
+    [
+      "sha256=1b5836c186b9d5a16acf47da94f3968f4f08b519b7729cd86a8fd39971fe12e5"
+      "sha512=00352fe61756f5aad5fd89b3cc596b619e5a5cf6808dcb0c197369bfff9f1ba182b4c6e5ea0e67269c9441b7b9b28f2a70d63fb972dfda64fc1a8404f7924753"
+    ]
+  ]
+  [
+    "https://github.com/ocaml/dune/releases/download/2.9.1/dune-2.9.1.tbz"
+    "dune_"
+    [
+      "sha256=b374feb22b34099ccc6dd32128e18d088ff9a81837952b29f05110b308c09f26"
+      "sha512=fce1aa520db785c25ded75a959e9dafeb7887d4f5deeb14b044cd5b9e2d235dca24589d794d2f01513765bc4764cf72f8659bd15f3a4fc06efa61363dc5d709b"
+    ]
+  ]
+  [
+    "https://github.com/ocaml/stdlib-shims/releases/download/0.3.0/stdlib-shims-0.3.0.tbz"
+    "stdlib-shims"
+    [
+      "sha256=babf72d3917b86f707885f0c5528e36c63fccb698f4b46cf2bab5c7ccdd6d84a"
+      "sha512=1151d7edc8923516e9a36995a3f8938d323aaade759ad349ed15d6d8501db61ffbe63277e97c4d86149cf371306ac23df0f581ec7e02611f58335126e1870980"
+    ]
+  ]
+  [
+    "https://github.com/rgrinberg/stringext/releases/download/1.6.0/stringext-1.6.0.tbz"
+    "stringext"
+    [
+      "sha256=db41f5d52e9eab17615f110b899dfeb27dd7e7f89cd35ae43827c5119db206ea"
+      "sha512=d8ebe40f42b598a9bd99f1ef4b00ba93458385a4accd121af66a0bf3b3f8d7135f576740adf1a43081dd409977c2219fd4bdbb5b3d1308890d301d553ed49900"
+    ]
+  ]
+  [
+    "https://ocaml.janestreet.com/ocaml-core/v0.14/files/sexplib0-v0.14.0.tar.gz"
+    "sexplib0"
+    ["md5=37aff0af8f8f6f759249475684aebdc4"]
+  ]
+]
+x-opam-monorepo-root-packages: ["monorepo"]
+x-opam-monorepo-version: "0.2"
