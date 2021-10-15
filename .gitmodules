@@ -17,7 +17,7 @@
 [submodule "ppxlib"]
 	path = ppxlib
 	url = https://github.com/ocaml-ppx/ppxlib.git
-	branch = master
+	branch = main
 [submodule "ppx_derivers"]
 	path = ppx_derivers
 	url = git://github.com/ocaml-ppx/ppx_derivers.git
@@ -26,10 +26,6 @@
 	path = ocaml-syntax-shims
 	url = https://github.com/ocaml-ppx/ocaml-syntax-shims.git
 	branch = master
-[submodule "ocaml-migrate-parsetree"]
-	path = ocaml-migrate-parsetree
-	url = https://github.com/ocaml-ppx/ocaml-migrate-parsetree.git
-	branch = master
 [submodule "csexp"]
 	path = csexp
 	url = https://github.com/ocaml-dune/csexp.git
@@ -37,6 +33,10 @@
 [submodule "ocaml-uri"]
 	path = ocaml-uri
 	url = https://github.com/mirage/ocaml-uri.git
+	branch = master
+[submodule "ocaml-cstruct"]
+	path = ocaml-cstruct
+	url = https://github.com/mirage/ocaml-cstruct.git
 	branch = master
 [submodule "eqaf"]
 	path = eqaf
@@ -70,6 +70,10 @@
 	path = angstrom
 	url = https://github.com/inhabitedtype/angstrom.git
 	branch = master
+[submodule "lib-findlib"]
+	path = lib-findlib
+	url = https://github.com/dune-universe/lib-findlib.git
+	branch = duniverse-1.8.1
 [submodule "base"]
 	path = base
 	url = https://github.com/janestreet/base.git
